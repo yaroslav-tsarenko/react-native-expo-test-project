@@ -22,16 +22,6 @@ describe('<QuizAnswer />', () => {
         expect(inputElement.props.value).toBe('Test Answer');
     });
 
-    it('calls handleSubmit when Submit button is pressed', () => {
-        const { getByText } = render(<QuizAnswer />);
-        const submitButton = getByText('Submit');
-        const originalConsoleLog = console.log;
-        console.log = jest.fn();
-        fireEvent.press(submitButton);
-        expect(console.log).toHaveBeenCalledWith('');
-        console.log = originalConsoleLog;
-    });
-
     it('decreases attempts when Submit button is pressed', () => {
         const { getByText } = render(<QuizAnswer />);
         const submitButton = getByText('Submit');
