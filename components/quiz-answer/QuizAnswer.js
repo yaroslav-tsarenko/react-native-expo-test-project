@@ -10,7 +10,6 @@ const QuizAnswer = () => {
     const [attempts, setAttempts] = useState(5);
 
     const handleSubmit = () => {
-        console.log(inputValue);
         setAttempts(attempts - 1);
     };
 

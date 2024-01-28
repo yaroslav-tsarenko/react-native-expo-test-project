@@ -3,7 +3,7 @@ import { View, TouchableOpacity } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
 import PoppinsFont from "../poppins-font/poppins-regular/PoppinsFont";
 import styles from "../../styles/styles";
-import BellIcon from "../../assets/icons/BellIcon";
+import BellIcon from "@assets/icons/BellIcon";
 
 const BellButton = () => {
     return (

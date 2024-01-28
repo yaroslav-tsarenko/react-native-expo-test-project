@@ -15,8 +15,8 @@ import BottomNavButtons from "../../bottom-navigation/BottomNavButtons";
 
 const loadFonts = () => {
     return Font.loadAsync({
-        'Poppins-Regular': require('../../../assets/fonts/Poppins/Poppins-Regular.ttf'),
-        'Poppins-ExtraBold': require('../../../assets/fonts/Poppins/Poppins-ExtraBold.ttf'),
+        'Poppins-Regular': require('@assets/fonts/Poppins/Poppins-Regular.ttf'),
+        'Poppins-ExtraBold': require('@assets/fonts/Poppins/Poppins-ExtraBold.ttf'),
     });
 };
 

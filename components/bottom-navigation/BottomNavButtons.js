@@ -2,9 +2,9 @@ import React, { useState, useEffect } from 'react';
 import {View, TouchableOpacity, Image, Keyboard} from 'react-native';
 import PoppinsFont from "../poppins-font/poppins-regular/PoppinsFont";
 import styles from "../../styles/styles";
-import HomeIcon from "../../assets/icons/HomeIcon";
-import CrownIcon from "../../assets/icons/CrownIcon";
-import SettingsIcon from "../../assets/icons/SettingsIcon";
+import HomeIcon from "@assets/icons/HomeIcon";
+import CrownIcon from "@assets/icons/CrownIcon";
+import SettingsIcon from "@assets/icons/SettingsIcon";
 
 const BottomNavButtons = ({ navigation }) => {
     const [keyboardStatus, setKeyboardStatus] = useState(false);

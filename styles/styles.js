@@ -175,7 +175,6 @@ const styles = StyleSheet.create({
         width: 120,
         fontSize: 16,
         marginTop: 5,
-        fontWeight: 800,
         color: '#3D444F',
         lineHeight: 20,
         letterSpacing: -0.16,

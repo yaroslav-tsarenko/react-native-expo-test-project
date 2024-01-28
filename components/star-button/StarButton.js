@@ -1,7 +1,7 @@
 import React from 'react';
-import { Text, View, StyleSheet, TouchableOpacity } from 'react-native';
+import { TouchableOpacity } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
-import StarIcon from '../../assets/icons/StarIcon';
+import StarIcon from '@assets/icons/StarIcon';
 import PoppinsFont from "../poppins-font/poppins-regular/PoppinsFont";
 import styles from "../../styles/styles";
 
